@@ -20,7 +20,6 @@ public class FoodDeliverySystem {
         Queue<Order> orderList = new LinkedList<>();
         JSONParser parser = new JSONParser();
         try{
-            System.out.println(fileName);
             JSONArray jsonArr = (JSONArray) parser.parse(new FileReader(fileName));
             for(Object obj:jsonArr){
                 JSONObject jsonObject = (JSONObject) obj;
