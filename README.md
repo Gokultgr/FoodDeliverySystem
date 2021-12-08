@@ -1,7 +1,7 @@
 # FoodDeliverySystem
 Food Delivery System
 
-java -jar ~dist/FoodDeliverySystem.jar ~test/input.json
+java -jar ~dist/FoodDeliverySystem.jar /input.json
 
 Input(as a json file)
 

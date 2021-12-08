@@ -1,2 +1,2 @@
 cd dist
-java -jar "FoodDeliverySystem.jar" ~/FoodDeliverySystem/test/input.json
+java -jar "FoodDeliverySystem.jar" input.json
